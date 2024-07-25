@@ -1,0 +1,87 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+   
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+    
+
+}
+#container{
+    backdrop-filter: blur(3px);
+    height: 400px;
+    width: 700px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;	border-radius: 10px;
+    filter: blur(5px);
+
+}
+#box1{
+    backdrop-filter: blur(5px);
+}
+#inputbox1{
+    margin-top: 45px;
+    margin-left: 15px;
+    height: 30px;
+    width: 200px;
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    outline-color: #1100ff;
+    color: blue;
+    
+}
+::placeholder{
+    color: #1100ff;
+}
+@media screen  and (max-width: 400px) {
+    #inputbox1{
+        height: 30px;
+        width: 150px;
+        margin-left: 50px;
+    }
+}
+
+#btn{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: 18px;
+    border-radius: 50%;
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+    cursor: pointer;
+    color: blue;
+}
+h3{
+    color: #1100ff;
+}
+p{
+    color: #1100ffb8;
+}
+span{
+    font-weight: bold;
+    color: rgb(0, 47, 255);
+    cursor: pointer;
+}
+
+
+#video1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+ @media (min-aspect-ratio: 16/9){
+     #video1{
+         width: 100%;
+         height: auto;
+        
+     }
+ }
