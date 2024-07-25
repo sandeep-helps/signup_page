@@ -40,13 +40,7 @@ body{
 ::placeholder{
     color: #1100ff;
 }
-@media screen  and (max-width: 400px) {
-    #inputbox1{
-        height: 30px;
-        width: 150px;
-        margin-left: 50px;
-    }
-}
+
 
 #btn{
     height: 50px;
